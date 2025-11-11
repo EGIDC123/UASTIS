@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengingat Jadwal Foto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pengingat Jadwal Foto</h1>
+
+        <form id="jadwalForm">
+            <input type="text" id="client" placeholder="Nama Client" required>
+            <input type="date" id="tanggal" required>
+            <input type="time" id="waktu" required>
+            <input type="text" id="lokasi" placeholder="Lokasi" required>
+            <button type="submit">Tambah Jadwal</button>
+        </form>
+
+        <h2>Daftar Jadwal</h2>
+        <ul id="jadwalList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
